@@ -33,6 +33,7 @@ public class Ls_Adapter extends RecyclerView.Adapter<Ls_Adapter.LoaiSachhoder> {
     Context context;
     List<LoaiSach> sachList;
     LoaiSachDao loDao;
+
     public Ls_Adapter(Context context, List<LoaiSach> sachList, LoaiSachDao loDao) {
         this.context = context;
         this.sachList = sachList;
@@ -48,6 +49,7 @@ public class Ls_Adapter extends RecyclerView.Adapter<Ls_Adapter.LoaiSachhoder> {
         return new LoaiSachhoder(view);
     }
 
+    // ok
     @Override
     public void onBindViewHolder(@NonNull @NotNull LoaiSachhoder holderls, int position) {
         LoaiSach loaiSach = sachList.get(position);
