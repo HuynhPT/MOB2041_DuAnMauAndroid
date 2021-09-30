@@ -82,7 +82,7 @@
         android:text="TextView"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
