@@ -45,7 +45,7 @@ public class Top10_Adapter extends ArrayAdapter<Top> {
             tv_tenstk = view.findViewById(R.id.tv_tensachtk);
             tv_tenstk.setText("Sách: " + top.tensach);
             tv_sltk = view.findViewById(R.id.tv_slouongtk);
-            tv_sltk.setText("Số Lượng " + top.soluong);
+            tv_sltk.setText("Số Lượng: " + top.soluong);
         }
 
         return view;
